@@ -84,7 +84,7 @@ body {
   left: 0;
   width: 100vw;
   height: calc(100vh);
-  filter: grayscale(90%) blur(2px) brightness(20%);
+  filter: grayscale(90%) blur(2px) brightness(50%);
 }
 
 .main-container{
