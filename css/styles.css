@@ -219,6 +219,10 @@ body {
   transform: translateX(-50%);
   margin: 50px 0 0;
   background: #C9B280;
+  background: linear-gradient(to right, #fff 50%, #C9B280 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all .3s ease-out;
   /* background: #be9a5a; */
   border: none;
   border-radius: 30px;
@@ -226,10 +230,16 @@ body {
   font-weight: 800;
   font-size: 0.8em;
   letter-spacing: 1.5px;
-  text-shadow: 1px 1px 6px #000;
+  /* text-shadow: 1px 1px 6px #000; */
   cursor: pointer;
   animation: btn-in 1s forwards ease;
   animation-delay: 3s;
+}
+
+.about-us-btn:hover{
+background-position: left;
+color: #686868;
+/* text-shadow: 0px 0px 0px #000; */
 }
 
 @keyframes btn-in {
