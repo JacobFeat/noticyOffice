@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
-  --gold-color: #C9B280;
+  --gold-color: #E3C67F;
 }
 
 html {
   padding: 0;
   margin: 0;
+  font-family: 'Lato', sans-serif;
   height: -webkit-fill-available;
 }
 
@@ -95,7 +98,6 @@ body {
   margin: 0;
   overflow-x: hidden;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #fff;
 }
@@ -120,6 +122,10 @@ body {
 
 .logo-text-up{
   border-bottom: 2px solid #fff;
+}
+
+.logo-text-down{
+  /* font-weight: 600; */
 }
 
 
@@ -218,6 +224,7 @@ body {
 
 .about-us-btn{
   position: relative;
+  font-family: 'Lato', sans-serif;
   z-index: 1;
   width: 180px;
   height: 46px;
@@ -234,6 +241,7 @@ body {
   border: none;
   border-radius: 30px;
   color: #fff;
+  color: #2D4244;
   font-weight: 800;
   font-size: 0.8em;
   letter-spacing: 1.5px;
